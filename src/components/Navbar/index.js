@@ -4,6 +4,7 @@ import { LogoImg } from "../../../public";
 import { LuSearch } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import Hero from "../Hero";
 
 const Navbar = () => {
   return (
@@ -30,7 +31,9 @@ const Navbar = () => {
               <BsFillMoonStarsFill className="cursor-pointer text-2xl ml-12" />
             </li>
             <li>
-              <a href="#" className="ml-12 text-xl">ID</a>
+              <a href="#" className="ml-12 text-xl">
+                ID
+              </a>
             </li>
             <li>
               <a
@@ -42,16 +45,34 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div>
-          <ul>
-            <li><a href="#" className="mr-8">Home</a></li>
-            <li><a href="#" className="mr-8">Bestseller</a></li>
-            <li><a href="#" className="mr-8">Category</a></li>
-            <li><a href="#" className="mr-8">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+        <div className="pl-10">
+          <ul className="flex justify-center items-center">
+            <li>
+              <a href="#" className="mr-8">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="mr-8">
+                Bestseller
+              </a>
+            </li>
+            <li>
+              <a href="#" className="mr-8">
+                Category
+              </a>
+            </li>
+            <li>
+              <a href="#" className="mr-8">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
           </ul>
         </div>
-
+        <Hero />
       </div>
     </section>
   );

@@ -36,5 +36,36 @@ a {
 }
 
 .search-button {
-margin-left: -35px;
+  margin-left: -35px;
+}
+
+.hero {
+  background: url('../../public/hero.png');
+  background-size: cover;
+  height: 600px;
+}
+
+.hero h1 {
+  color: var(--secondary-color);
+  font-size: 48px;
+  font-weight: 700;
+  width: 500px;
+}
+
+.button-cta {
+  background: var(--green-color);
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.popular h2 {
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.popular a {
+  color: #828282;
 }
