@@ -69,3 +69,14 @@ a {
 .popular a {
   color: #828282;
 }
+
+.popular h3 {
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cover {
+  background: #fff;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
