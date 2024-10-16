@@ -20,6 +20,7 @@ import IgImg from "./instagram.png";
 import FbImg from "./facebook.png";
 import StarOn from "./staron.png";
 import StarOff from "./staroff.png";
+import Kutip from "./kutip.png";
 
 export {
   LogoImg,
@@ -44,4 +45,5 @@ export {
   FbImg,
   StarOn,
   StarOff,
+  Kutip,
 };
